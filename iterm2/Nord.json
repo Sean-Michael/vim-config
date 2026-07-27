@@ -1,0 +1,10 @@
+{
+  "Profiles": [{
+    "Name": "Nord",
+    "Guid": "nord-custom-profile",
+    "Normal Font": "JetBrainsMonoNFM-Regular 14",
+    "Transparency": 0.2,
+    "Blur": true,
+    "Blur Radius": 25
+  }]
+}
