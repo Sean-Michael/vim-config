@@ -1,0 +1,59 @@
+{
+  "suggest.noselect": false,
+  "suggest.enablePreselect": true,
+  "suggest.timeout": 5000,
+  "suggest.snippetIndicator": " ►",
+  "diagnostic.errorSign": "✘",
+  "diagnostic.warningSign": "▲",
+  "diagnostic.infoSign": "ℹ",
+  "diagnostic.hintSign": "➤",
+  "diagnostic.virtualText": true,
+  "diagnostic.virtualTextPrefix": "    ▎ ",
+  "diagnostic.checkCurrentLine": true,
+  "coc.preferences.formatOnSave": true,
+  "coc.preferences.formatOnType": false,
+  "coc.preferences.extensionUpdateCheck": "weekly",
+  "signature.target": "float",
+
+  "python.formatting.provider": "black",
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": false,
+  "python.analysis.typeCheckingMode": "basic",
+  "pyright.organizeimports.provider": "isort",
+
+  "tsserver.enableJavascript": true,
+  "typescript.format.enabled": true,
+  "typescript.suggest.completeFunctionCalls": true,
+  "typescript.preferences.importModuleSpecifier": "shortest",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "eslint.autoFixOnSave": true,
+  "eslint.format.enable": true,
+
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.printWidth": 100,
+  "prettier.semi": true,
+
+  "json.format.enable": true,
+
+  "markdownlint.config": {
+    "default": true,
+    "MD013": false,
+    "MD033": false,
+    "MD041": false
+  },
+
+  "languageserver": {},
+
+  "list.source.files.command": "rg",
+  "list.source.files.args": [
+    "--files",
+    "--hidden",
+    "--glob",
+    "!.git/*"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
